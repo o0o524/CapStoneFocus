@@ -1,8 +1,3 @@
-#
-# BasicUDPServer.py
-# 20131187 권용일
-#
-
 from datetime import datetime
 from socket import *
 

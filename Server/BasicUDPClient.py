@@ -7,14 +7,10 @@ import time
 from datetime import datetime
 from socket import *
 
-serverName = '220.70.53.254'
+serverName = '165.194.17.28'
 serverPort = 31187
 
 clientSocket = socket(AF_INET, SOCK_DGRAM)
-
-
-print("The client is running on port", clientSocket.getsockname()[1])
-
 
 # Show information about message and reply time to client
 def response_print(send_time):
